@@ -1,7 +1,5 @@
-Vim .gitignore filetype plugin
-==============================
-
-> Yet underway...
+Vim gitignore filetype plugin
+=============================
 
 About
 -----
