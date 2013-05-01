@@ -7,6 +7,11 @@ if exists("b:current_syntax")
   finish
 endif
 
-let main_syntax = 'conf'
+if !exists("main_syntax")
+  let main_syntax = 'conf'
+endif
+
+runtime! syntax/conf.vim
+unlet b:current_syntax
 
 let b:current_syntax = "gitignore"
