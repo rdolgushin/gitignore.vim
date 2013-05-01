@@ -13,7 +13,7 @@ for `.gitignore` files in Vim.
 Requirements
 ------------
 
-* For using .gitignore snippets your must install
+* For using code snippets your must install
 [snipMate](https://github.com/msanders/snipmate.vim)
 * For useful commenting/uncommenting install
 [tComment](https://github.com/tomtom/tcomment_vim)
