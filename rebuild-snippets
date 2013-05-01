@@ -1,0 +1,51 @@
+#!/bin/bash
+
+################################################
+# Rebuilding script for updating snippets from #
+# https://github.com/github/gitignore          #
+################################################
+
+build_dir="build"
+repo_dir_name="github-gitignore"
+repo_dir="$build_dir/$repo_dir_name"
+result_dir="snippets/gitignore"
+
+echo "*** Rebuilding started ***"
+
+# Preparing {{{
+
+  mkdir $build_dir
+  echo "$build_dir directory created"
+
+  git clone https://github.com/github/gitignore.git $repo_dir
+
+# }}}
+
+# Building {{{
+
+  for file_path in $repo_dir/*.gitignore
+  do
+    echo >> "$file_path"
+    mv "$file_path" $repo_dir/"`basename "$file_path" .gitignore`.snippet"
+  done
+
+  for file_path in $repo_dir/Global/*.gitignore
+  do
+    echo >> "$file_path"
+    mv "$file_path" $repo_dir/Global/"`basename "$file_path" .gitignore`.snippet"
+  done
+
+  rm -rf $result_dir/*
+  mv $repo_dir/* $result_dir
+
+# }}}
+
+# Clearing {{{
+
+  rm -rf build
+  echo "$build_dir directory removed"
+
+# }}}
+
+echo "*** Rebuilding completed ***"
+
