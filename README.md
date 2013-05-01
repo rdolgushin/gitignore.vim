@@ -1,13 +1,13 @@
-Vim gitignore filetype plugin
-=============================
+Vim gitignore plugin
+====================
 
 About
 -----
 
-This plugin adds syntax highlighting and code snippets
+This plugin adds syntax highlighting, code snippets
 (using [snipMate](https://github.com/msanders/snipmate.vim))
 based on https://github.com/github/gitignore snippets
-for `.gitignore` files in Vim.
+and supporing of tComment for `.gitignore` files in Vim.
 
 
 Requirements
