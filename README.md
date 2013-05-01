@@ -41,5 +41,5 @@ and pressing `<Tab>` key.
 
 ### Commenting
 
-For commenting you can use standard tComment `<C-_>` key.
+For commenting you can use standard tComment `<C-_>` keymap.
 
