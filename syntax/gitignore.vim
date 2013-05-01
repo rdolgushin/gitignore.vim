@@ -15,3 +15,5 @@ runtime! syntax/conf.vim
 unlet b:current_syntax
 
 let b:current_syntax = 'gitignore'
+
+setlocal commentstring=#%s
