@@ -15,7 +15,7 @@ Requirements
 
 * For using code snippets your must install
 [snipMate](https://github.com/msanders/snipmate.vim)
-* For useful commenting/uncommenting install
+* For commenting/uncommenting install
 [tComment](https://github.com/tomtom/tcomment_vim)
 
 
