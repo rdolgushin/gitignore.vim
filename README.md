@@ -37,7 +37,7 @@ Usage
 ### Snippets
 
 Gitignore.vim contains an usual snipMate snippets. You can use it by
-opening your `.gitignore` file, typing snippet name (for example, `python`)
+opening your `.gitignore` file, typing snippet name (for example, `Python`)
 and pressing `<Tab>` key.
 
 ### Commenting
