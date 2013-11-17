@@ -9,12 +9,15 @@ This plugin adds syntax highlighting, code snippets
 based on https://github.com/github/gitignore snippets
 and supporing of tComment for `.gitignore` files in Vim.
 
+![gitignore.vim with AutoComplPop](http://i.imgur.com/7WeBUds.png)
+
 
 Requirements
 ------------
 
 * For using code snippets your must install
 [snipMate](https://github.com/msanders/snipmate.vim)
+* For more fun try out [AutoComplPop](http://www.vim.org/scripts/script.php?script_id=1879)
 * For commenting/uncommenting install
 [tComment](https://github.com/tomtom/tcomment_vim)
 
